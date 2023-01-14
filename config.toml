@@ -1,0 +1,4 @@
+baseURL = 'http://kuberoke.love/'
+languageCode = 'en-us'
+title = 'Kuberoke'
+theme = 'blowfish'
