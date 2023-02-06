@@ -20,7 +20,7 @@ mainSections = ["events", "sponsor", "coc"]
 defaultBackgroundImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used as default for background images
 
 [header]
-  layout = "custom" # valid options: basic, fixed
+  layout = "fixed" # valid options: basic, fixed
 
 [footer]
  # showMenu = true
