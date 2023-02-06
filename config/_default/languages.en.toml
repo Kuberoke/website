@@ -6,7 +6,6 @@ weight = 1
 rtl = false
 
 title = "Kuberoke"
-test = "foobar"
 logo = "img/kuberoke.png"
 description = "The first and only Kubernetes Karaoke community"
 # copyright = "Copy, _right?_ :thinking_face:"
