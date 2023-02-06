@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <div class="fixed inset-x-0 top-0" style="z-index:-10">
+      {{ $homepageImage := "" }}
+      {{ with .Site.Params.defaultBackgroundImage }}{{ $homepageImage = resources.Get . }}{{ end }}
+      {{ with .Site.Params.homepage.homepageImage }}{{ $homepageImage = resources.Get . }}{{ end }}
+      {{ if not (eq $homepageImage "") }}
+      <img class="w-full h-[1000px] object-cover m-0 nozoom" src="{{ $homepageImage.RelPermalink }}">
+      <div
+          class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+      </div>
+      <div
+          class="opacity-60 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+      </div>
+      {{ end }}
+    </div>
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      {{ .Content | emojify }}
+    </section>
+    <footer class="pt-8">
+      {{ partial "sharing-links.html" . }}
+    </footer>
+  </article>
+{{ end }}

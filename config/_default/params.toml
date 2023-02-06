@@ -17,7 +17,7 @@ mainSections = ["events", "sponsor", "coc"]
 
 # disableImageOptimization = false
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
+defaultBackgroundImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used as default for background images
 
 [header]
   layout = "custom" # valid options: basic, fixed
@@ -30,7 +30,7 @@ mainSections = ["events", "sponsor", "coc"]
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
