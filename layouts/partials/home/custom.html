@@ -20,7 +20,7 @@
 
                 
                 <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
-                    {{ with .Site.Author.image }}
+                    {{ with default .Site.Params.logo }}
                     {{ $authorImage := resources.Get . }}
                     {{ if $authorImage }}
                     {{ $authorImage := $authorImage.Fill "288x288" }}
@@ -29,9 +29,9 @@
                     {{ end }}
                     {{ end }}
                     <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
-                        {{ .Site.Author.name | default .Site.Title }}
+                        {{ .Site.Title }}
                     </h1>
-                    {{ with .Site.Author.headline }}
+                    {{ with .Site.Params.description }}
                     <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
                         {{ . | markdownify | emojify }}
                     </h2>
