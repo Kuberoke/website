@@ -7,8 +7,8 @@
 ### Build page once
 `docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest`
 
-### Add new post
-`hugo new <name>/<of>/<page>/index.md`
+### Add new kuberoke event
+`hugo new events/<event-slug>/index.md`
 
 ### Update theme
 ```
