@@ -19,11 +19,11 @@
                 </div>
                 <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
                     {{ with .Site.Params.logo }}
-                    {{ $authorImage := resources.Get . }}
-                    {{ if $authorImage }}
-                    {{ $authorImage := $authorImage.Fill "288x288" }}
+                    {{ $logo := resources.Get . }}
+                    {{ if $logo }}
+                    {{ $logo := $logo.Fill "288x288" }}
                     <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
-                        alt="{{ $.Site.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
+                        alt="{{ $.Site.Title | default " Kuberoke" }}" src="{{ $logo.RelPermalink }}" />
                     {{ end }}
                     {{ end }}
                     <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
