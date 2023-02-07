@@ -35,7 +35,7 @@
                     </h2>
                     {{ end }}
                     <div class="mt-1 mb-10 text-2xl">
-                        {{ with .Site.Author.links }}
+                        {{ with .Site.Params.links }}
                         <div class="flex flex-wrap">
                             {{ range $links := . }}
                             {{ range $name, $url := $links }}
