@@ -6,11 +6,14 @@ weight = 1
 rtl = false
 
 title = "Kuberoke"
-logo = "img/kubernetes-icon-color.png"
+logo = "img/kuberoke.png"
 description = "The first and only Kubernetes Karaoke community"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
+
+[project]
+  image = "img/kuberoke.png"
 
 [author]
   name = "Lian"
@@ -34,12 +37,12 @@ dateFormat = "2 January 2006"
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
-  #   { instagram = "https://instagram.com/username" },
+      { instagram = "https://www.instagram.com/kuberoke/" },
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
   #   { linkedin = "https://linkedin.com/in/username" },
-    { mastodon = "https://hachyderm.io/@lianmakesthings" },
+  #   { mastodon = "https://hachyderm.io/@lianmakesthings" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
   #   { orcid = "https://orcid.org/userid" },
@@ -56,7 +59,7 @@ dateFormat = "2 January 2006"
   #   { tiktok = "https://tiktok.com/@username" },
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/lianmakesthings" },
-    { twitter = "https://twitter.com/lianmakesthings" },
+      { twitter = "https://twitter.com/kuberoke" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   #   { ko-fi = "https://ko-fi.com/username" },
