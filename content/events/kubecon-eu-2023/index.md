@@ -11,8 +11,10 @@ KubeCon is coming to beautiful Amsterdam and to celebrate the occasion, we are h
 We will have an open bar and some snacks, thanks to our generous sponsors!
 The venue is small and there will be limited seating, so don't show up too late, or you might not be able to get in!
 
-**Safety**  
+**Safety & Accessibility**  
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior.
 
 In accordance with local laws and regulations, we do *not* require mask wearing or proof of vaccination. Masks & hand sanitizer will be made available at the venue for those who want it.
 Please be aware that the venue is small and there will be loud singing. If you are concerned about infection risk, we would advise you to not attend.
+
+The venue is located on the ground floor with a small step (sidewalk) in front of the entrance. It should be accessible for most mobility aids.
