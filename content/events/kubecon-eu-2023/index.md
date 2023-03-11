@@ -1,5 +1,5 @@
 ---
-title: "Kubecon EU 2023"
+title: "KubeCon EU 2023"
 date: 2023-04-19
 authors:
   - "lian"
