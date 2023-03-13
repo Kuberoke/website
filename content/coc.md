@@ -11,15 +11,17 @@ It applies to all Kuberoke events, social media posts and this discord server.
 **Behaviour**  
 The point of Kuberoke is to have an enjoyable time together as a community after hours. However, we still - to some extent - consider these to be a professional events. As such, we expect professional behaviour from all participants.
 
-We do not allow any kind of discrimination, such as:
+We have a zero-tolerance policy regarding discrimination and aggressive behaviour such as:
 - Sexism
 - Racism, Anti-Semitism, Xenophobia
-- Homophobia, Transphobia, any bigotry against LGBTQ+ folks as well as queer erasure (i.e. questioning folks self-labelling as queer)
+- Homophobia, Transphobia, any bigotry against LGBTQ+ folks as well as queer erasure (i.e. questioning folks' self-labelling as queer)
 - Ableism (usage of ableist slurs, harassing people for their physical properties), unwanted comments about people's health status
+- Harassment, unwanted advances, crossing stated boundaries
+Violators will be removed immediately and possibly banned from all future events.
 
 Additionally, we also forbid:
-- Harassment, unwanted advances, crossing stated boundaries
 - Teasing, embarrassing or otherwise making folks uncomfortable for their personal choices (i.e. song choices, refusing to consume alcohol, technology choices, etc)
+- Songs which heavily feature bigotry or sexual violence in the title and/or lyrics
 
 **Reporting violations**  
 If you notice anyone violating the Code of Conduct, please do not hesitate to report this immediately to the @team or directly to the organiser of the event. You can find the event organiser in the description of the events' channel.  
