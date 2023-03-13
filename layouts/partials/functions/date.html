@@ -1,0 +1,7 @@
+{{ $date := "TBA" }}
+
+{{ with . }}
+    {{ $date = time.Format (site.Language.Params.dateFormat | default ":date_long") . }}
+{{ end }}
+
+{{ return $date }}

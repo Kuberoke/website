@@ -15,10 +15,10 @@
   pageRef = "events"
   weight = 10
 
-[[main]]
-  name = "Sponsor"
-  url = "https://bit.ly/kuberoke-eu-23"
-  weight = 20
+#[[main]]
+#  name = "Sponsor"
+#  url = "https://bit.ly/kuberoke-eu-23"
+#  weight = 20
 
 [[main]]
   name = "Code of Conduct"

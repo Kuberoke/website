@@ -7,9 +7,6 @@
 ### Build page once
 `docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest`
 
-### Add new post
-`hugo new <name>/<of>/<page>/index.md`
-
 ### Update theme
 ```
 cd themes/blowfish
@@ -19,7 +16,9 @@ git add themes/blowfish
 git commit
 ```
 
-### Add new author
+## Adding content
+
+### New author
 1. Create json file in `data/authors/`, the filename is the author's key
 ```json
 {
@@ -38,3 +37,10 @@ git commit
 authors:
   - "lian"
 ```
+
+
+### New Kuberoke event
+1. Create event page
+`hugo new events/<event-slug>/index.md`
+
+2. Add hero image as `events/<event-slug>/feature*`
