@@ -18,3 +18,10 @@ In accordance with local laws and regulations, we do *not* require mask wearing 
 Please be aware that the venue is small and there will be loud singing. If you are concerned about infection risk, we would advise you to not attend.
 
 The venue is located on the ground floor with a small step (sidewalk) in front of the entrance. It should be accessible for most mobility aids.
+
+**Sponsors**  
+This event is made possible by our generous sponsors ❤️
+
+[![Ambassador Labs](Ambassador_Labs_horiz_full_color_RGB.png)](https://www.getambassador.io/)
+[![Control-Plane](control-plane-Logo.png)](https://control-plane.io/)
+[![Chainguard](Chainguard_Lockup_Blue.png)](https://www.chainguard.dev/)
