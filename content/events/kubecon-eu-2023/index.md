@@ -26,3 +26,6 @@ This event is made possible by our generous sponsors ❤️
 [![Control-Plane](control-plane-Logo.png)](https://control-plane.io/)
 [![Chainguard](Chainguard_Lockup_Blue.png)](https://www.chainguard.dev/)
 [![Mia-Platform](mia-platform-Horizontal_Lockup_Primary.jpg)](https://www.mia-platform.eu/)
+
+**Registration**
+{{< form-registration action="" >}}
