@@ -15,8 +15,8 @@ Due to overwhelming interest, we are now requiring folks to register.
 Please fill in the registration form below to add yourself to the guest list.
 
 Beginning at 8pm and whenever new slots become available, we will send out QR codes to the top addresses on the guest list, which will let you enter the venue.
-Once you have received your QR code, you have a limited amount of time to arrive. If you’re too late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
-If the venue is not full, and you have a valid QR code, you can enter even if you’re too late.
+Once you have received your QR code, you have a limited amount of time to arrive. If you’re late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
+If the venue is not full, and you have a valid QR code, you can enter even if you’re late.
 
 {{< form-registration action="" >}}
 
