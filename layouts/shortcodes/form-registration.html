@@ -1,16 +1,22 @@
-<form id="registration" class="contact-form-wrapper" method="POST" action="{{ .Get "action" }}">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required placeholder="Your Name" aria-labelledby="name"/>
-    <br>
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email" required placeholder="Email" aria-labelledby="email"/>
-    <br>
-    <label for="code">Ticket Code (optional)</label>
-    <input type="text" id="code" name="code" placeholder="Ticket Code" aria-labelledby="code"/>
-    <br>
+<form id="registration" class="contact-form-wrapper" method="POST" action="{{ .Get "action" }}" style="display: flex; flex-direction: column; gap: 20px;">
+    <div style="display: flex; flex-direction: column;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" aria-labelledby="name"/>
+    </div>
+    
+    <div style="display: flex; flex-direction: column;">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Email" aria-labelledby="email"/>
+    </div>
+    
+    <div style="display: flex; flex-direction: column;">
+        <label for="code">Ticket Code (optional)</label>
+        <input type="text" id="code" name="code" placeholder="Ticket Code" aria-labelledby="code"/>
+    </div>
+
     <p id="error" style="display:none"></p>
     <p id="success" style="display:none">Success! You will receive an email shortly confirming your registration with further details.</p>
-    <button type="submit">Register</button>
+    <button type="submit" style="margin: auto; padding: 2px 4px; border: 2px solid black;">Register</button>
 </form>
 <p style="font-style: italic;">We will delete all your information after the event. We will not share your information with sponsors or any third parties.</p>
 
