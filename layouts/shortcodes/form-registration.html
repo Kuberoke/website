@@ -1,17 +1,17 @@
 <form id="registration" class="contact-form-wrapper" method="POST" action="{{ .Get "action" }}" style="display: flex; flex-direction: column; gap: 20px;">
     <div style="display: flex; flex-direction: column;">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required placeholder="Your Name" aria-labelledby="name"/>
+        <input type="text" id="name" name="name" required placeholder="Your Name" aria-labelledby="name" style="color:#000000"/>
     </div>
     
     <div style="display: flex; flex-direction: column;">
         <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required placeholder="Email" aria-labelledby="email"/>
+        <input type="email" id="email" name="email" required placeholder="Email" aria-labelledby="email" style="color:#000000"/>
     </div>
     
     <div style="display: flex; flex-direction: column;">
         <label for="code">Ticket Code (optional)</label>
-        <input type="text" id="code" name="code" placeholder="Ticket Code" aria-labelledby="code"/>
+        <input type="text" id="code" name="code" placeholder="Ticket Code" aria-labelledby="code" style="color:#000000"/>
     </div>
 
     <p id="error" style="display:none"></p>
