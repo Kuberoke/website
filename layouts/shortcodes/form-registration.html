@@ -1,0 +1,63 @@
+<form id="registration" class="contact-form-wrapper" method="POST" action="{{ .Get "action" }}" style="display: flex; flex-direction: column; gap: 20px;">
+    <div style="display: flex; flex-direction: column;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" aria-labelledby="name" style="color:#000000"/>
+    </div>
+    
+    <div style="display: flex; flex-direction: column;">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Email" aria-labelledby="email" style="color:#000000"/>
+    </div>
+    
+    <div style="display: flex; flex-direction: column;">
+        <label for="code">Ticket Code (optional)</label>
+        <input type="text" id="code" name="code" placeholder="Ticket Code" aria-labelledby="code" style="color:#000000"/>
+    </div>
+
+    <p id="error" style="display:none"></p>
+    <p id="success" style="display:none">Success! You will receive an email shortly confirming your registration with further details.</p>
+    <button type="submit" style="margin: auto; padding: 2px 4px; border: 2px solid black;">Register</button>
+</form>
+<p style="font-style: italic;">We will delete all your information after the event. We will not share your information with sponsors or any third parties.</p>
+
+<script>
+    const endpoint = 'https://1ldyenpgic.execute-api.eu-west-1.amazonaws.com/prod/reservation'
+
+    $('#registration').on('submit', async e => {
+        e.preventDefault()
+
+        $('#registration #error').hide()
+        $('#registration #success').hide()
+
+        const name = $('#registration #name')[0].value
+        const email = $('#registration #email')[0].value
+        const code = $('#registration #code')[0].value
+
+        const data = {name, email}
+
+        if (code) data.code = code
+
+        const response = await fetch(endpoint, {
+            method: "POST",
+            mode: "cors",
+            cache: "no-cache",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            redirect: "follow",
+            referrerPolicy: "no-referrer",
+            body: JSON.stringify(data),
+        });
+
+        if (response.status !== 200) {
+            const json = await response.json()
+            $('#registration #error')[0].textContent = json.message || 'Something went wrong. Please try again later.'
+            $('#registration #error').show()
+        } else {
+            $('#registration #success').show()
+        }
+
+        return false
+    })
+</script>
+
