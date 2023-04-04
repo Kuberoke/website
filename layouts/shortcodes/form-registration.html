@@ -23,47 +23,41 @@
 <script>
     const endpoint = 'https://1ldyenpgic.execute-api.eu-west-1.amazonaws.com/prod/reservation'
 
-    const apikey = localStorage.getItem('apikey')
+    $('#registration').on('submit', async e => {
+        e.preventDefault()
 
-    if (apikey) {
-        $('#registration').on('submit', async e => {
-            e.preventDefault()
+        $('#registration #error').hide()
+        $('#registration #success').hide()
 
-            $('#registration #error').hide()
-            $('#registration #success').hide()
+        const name = $('#registration #name')[0].value
+        const email = $('#registration #email')[0].value
+        const code = $('#registration #code')[0].value
 
-            const name = $('#registration #name')[0].value
-            const email = $('#registration #email')[0].value
-            const sponsor = $('#registration #code')[0].value
+        const data = {name, email}
 
-            const data = {name, email}
+        if (code) data.code = code
 
-            if (sponsor) data.sponsor = sponsor
+        const response = await fetch(endpoint, {
+            method: "POST",
+            mode: "cors",
+            cache: "no-cache",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            redirect: "follow",
+            referrerPolicy: "no-referrer",
+            body: JSON.stringify(data),
+        });
 
-            const response = await fetch(endpoint, {
-                method: "POST",
-                mode: "cors",
-                cache: "no-cache",
-                headers: {
-                  "Content-Type": "application/json",
-                  'X-API-Key': apikey,
-                },
-                redirect: "follow",
-                referrerPolicy: "no-referrer",
-                body: JSON.stringify(data),
-            });
+        if (response.status !== 200) {
+            const json = await response.json()
+            $('#registration #error')[0].textContent = json.message || 'Something went wrong. Please try again later.'
+            $('#registration #error').show()
+        } else {
+            $('#registration #success').show()
+        }
 
-            if (response.status !== 200) {
-                const json = await response.json()
-                $('#registration #error')[0].textContent = json.message || 'Something went wrong. Please try again later.'
-                $('#registration #error').show()
-            } else {
-                $('#registration #success').show()
-            }
-
-
-            return false
-        })
-    }
+        return false
+    })
 </script>
 
