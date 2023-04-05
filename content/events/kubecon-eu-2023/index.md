@@ -1,5 +1,5 @@
 ---
-title: "Amsterdam April 19"
+title: " Kuberoke Spring Party Amsterdam"
 date: 2023-04-19
 authors:
   - "lian"
