@@ -1,0 +1,9 @@
+{
+  "name": "Dave",
+  "image" : "img/avatars/dave.jpeg",
+  "bio": "Associate Karaoke Officer",
+  "social": [
+    { "twitter": "https://twitter.com/thedevelopnik" },
+    { "mastodon": "https://hachyderm.io/@thedevelopnik"}
+  ]
+}
