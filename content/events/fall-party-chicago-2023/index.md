@@ -5,7 +5,7 @@ authors:
   - "dave"
 draft: false
 ---
-KubeCon + CloudNativeCon is coming to Chicago and to celebrate the occasion, we are hosting a Karaoke party on **Tuesday November 7, 9pm - 1am** at Chciago's premier Karaoke bar, Brando's Speakeasy.
+KubeCon + CloudNativeCon is coming to Chicago and to celebrate the occasion, we are hosting a Karaoke party on **Tuesday November 7, 9pm - 1am** at Chicago's premier Karaoke bar, Brando's Speakeasy.
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.7240802035885!2d-87.63158542367218!3d41.87728256546486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbd3a474423%3A0xaef5b2fc61bc062c!2sBrando&#39;s%20Speakeasy!5e0!3m2!1sen!2sus!4v1695670979244!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 We will have an open bar and snacks, thanks to our generous sponsors!
