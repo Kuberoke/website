@@ -1,18 +1,20 @@
 ---
-title: " Kuberoke Spring Party Amsterdam"
-date: 2023-04-19
+title: " Kuberoke Fall Party Chicago"
+date: 2023-11-07
 authors:
-  - "lian"
-draft: true
+  - "dave"
+draft: false
 ---
-KubeCon + CloudNativeCon is coming to beautiful Amsterdam and to celebrate the occasion, we are hosting a Karaoke party on **Wednesday April 19, 9pm - 1am** at Amsterdam's premier Karaoke bar, KTV Bar.
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.691042140049!2d4.897678315850254!3d52.37602197978714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b9cbcf2301%3A0x97b875ed29f9c2b0!2sKTV%20Bar!5e0!3m2!1sen!2snl!4v1675784699651!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+KubeCon + CloudNativeCon is coming to Chicago and to celebrate the occasion, we are hosting a Karaoke party on **Tuesday November 7, 9pm - 1am** at Chicago's premier Karaoke bar, Brando's Speakeasy.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.7240802035885!2d-87.63158542367218!3d41.87728256546486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbd3a474423%3A0xaef5b2fc61bc062c!2sBrando&#39;s%20Speakeasy!5e0!3m2!1sen!2sus!4v1695670979244!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-We will have an open bar and some snacks, thanks to our generous sponsors!
+We will have an open bar and snacks, thanks to our generous sponsors!
 
 **Registration**  
 Due to overwhelming interest, we are now requiring folks to register.
 Please fill in the registration form below to add yourself to the guest list.
+
+Registration will collect your email, but it will only be used for sending confirmation and invites; your email will **not** be shared with the sponsors for marketing purposes.
 
 Beginning at 8pm and whenever new slots become available, we will send out QR codes to the top addresses on the guest list, which will let you enter the venue.
 Once you have received your QR code, you have a limited amount of time to arrive. If you’re late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
@@ -26,12 +28,12 @@ By attending the event, you agree to abide by our [Code of Conduct](/coc). Pleas
 In accordance with local laws and regulations, we do *not* require mask wearing or proof of vaccination. Masks & hand sanitizer will be made available at the venue for those who want it.
 Please be aware that the venue is small and there will be loud singing. If you are concerned about infection risk, we would advise you to not attend.
 
-The venue is located on the ground floor with a small step (sidewalk) in front of the entrance. It should be accessible for most mobility aids.
+The venue is ADA compliant. It should be accessible for most mobility aids.
 
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
 [![Ambassador Labs](Ambassador_Labs_horiz_full_color_RGB.png)](https://www.getambassador.io/)
-[![Control-Plane](control-plane-Logo.png)](https://control-plane.io/)
 [![Chainguard](Chainguard_Lockup_Blue.png)](https://www.chainguard.dev/)
-[![Mia-Platform](mia-platform-Horizontal_Lockup_Primary.jpg)](https://www.mia-platform.eu/)
+[![Control-Plane](control-plane-Logo.png)](https://control-plane.io/)
+[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
