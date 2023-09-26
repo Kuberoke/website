@@ -11,13 +11,16 @@ KubeCon + CloudNativeCon is coming to Chicago and to celebrate the occasion, we 
 We will have an open bar and snacks, thanks to our generous sponsors!
 
 **Registration**  
-We will be requiring folks to register, and will have the registration form up soon!
+Due to overwhelming interest, we are now requiring folks to register.
+Please fill in the registration form below to add yourself to the guest list.
 
 Registration will collect your email, but it will only be used for sending confirmation and invites; your email will **not** be shared with the sponsors for marketing purposes.
 
 Beginning at 8pm and whenever new slots become available, we will send out QR codes to the top addresses on the guest list, which will let you enter the venue.
 Once you have received your QR code, you have a limited amount of time to arrive. If you’re late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
 If the venue is not full, and you have a valid QR code, you can enter even if you’re late.
+
+{{< form-registration action="" >}}
 
 **Safety & Accessibility**  
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior to the event.
