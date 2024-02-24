@@ -31,7 +31,7 @@ Please be aware that the venue is small and there will be loud singing. If you a
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
-[![Honeycomb](Ambassador_Labs_horiz_full_color_RGB.png)](https://www.honeycomb.io/)
+[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
 [![Control-Plane](control_plane_logo.png)](https://control-plane.io/)
 [![TestifySec](testifysec.png)](https://www.testifysec.com/)
 [![AWS](aws_logo.png)](https://aws.amazon.com/)
