@@ -14,7 +14,7 @@ We will have an open bar and snacks, thanks to our generous sponsors!
 Due to overwhelming interest, we are now requiring folks to register.
 Please fill in the registration form below to add yourself to the guest list.
 
-Registration will collect your email, but it will only be used for sending confirmation and invites; your email will **not** be shared with the sponsors for marketing purposes.
+Registration will collect your email, but it will only be used for sending confirmation and invites; your **personal email address** will **not** be shared with the sponsors for marketing purposes. We will share the **unique company domain names** from emails (i.e. companyname.com) with sponsors.
 
 Beginning at 8:30pm and whenever new slots become available, we will send out QR codes to the top addresses on the guest list, which will let you enter the venue.
 Once you have received your QR code, you have a limited amount of time to arrive. If you’re late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
