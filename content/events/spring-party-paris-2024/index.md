@@ -25,8 +25,8 @@ REGISTRATION WILL OPEN SOON!
 **Safety & Accessibility**  
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior to the event.
 
-In accordance with local laws and regulations, we do *not* require mask wearing or proof of vaccination. Masks & hand sanitizer will be made available at the venue for those who want it.
-Please be aware that the venue is small and there will be loud singing. If you are concerned about infection risk, we would advise you to not attend.
+We do *not* require mask wearing or proof of vaccination. Please be aware that the venue is small
+and there will be loud singing. If you are concerned about infection risk, we would advise you to not attend.
 
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
