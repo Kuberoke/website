@@ -20,6 +20,8 @@ Beginning at 8:30pm and whenever new slots become available, we will send out QR
 Once you have received your QR code, you have a limited amount of time to arrive. If you’re late and the venue is full, you can queue at the door or come back at a later time. We will fill the venue from the queue first, before sending out new QR codes.
 If the venue is not full, and you have a valid QR code, you can enter even if you’re late.
 
+We will **not admit anyone without a QR code**. Please do not bring friends who did not register. If you are in a group and want to come together, please wait until you all have a code.
+
 REGISTRATION WILL OPEN SOON!
 
 **Safety & Accessibility**  
