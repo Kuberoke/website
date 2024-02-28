@@ -36,4 +36,4 @@ This event is made possible by our generous sponsors ❤️
 [![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
 [![Control-Plane](control_plane_logo.png)](https://control-plane.io/)
 [![TestifySec](testifysec.png)](https://www.testifysec.com/)
-[![AWS](aws_logo.png)](https://aws.amazon.com/)
+[![AWS](aws.png)](https://aws.amazon.com/)
