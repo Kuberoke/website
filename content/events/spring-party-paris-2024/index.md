@@ -22,7 +22,7 @@ If the venue is not full, and you have a valid QR code, you can enter even if yo
 
 **We will not admit anyone without a QR code**. Please do not bring friends who did not register. If you are in a group and want to come together, please wait until you all have a code.
 
-REGISTRATION WILL OPEN SOON!
+{{< form-registration action="" >}}
 
 **Safety & Accessibility**  
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior to the event.
