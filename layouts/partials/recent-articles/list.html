@@ -1,0 +1,18 @@
+{{ $recentArticles := 5 }}
+{{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+
+<section class="space-y-10 w-full">
+  <h2 class="mt-8 text-2xl font-extrabold mb-10">Upcoming</h2>
+  {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+    {{ if not (.Params.date.Before (time.AsTime time.Now)) }}
+      {{ partial "article-link/simple.html" . }}
+    {{ end }}
+  {{ end }}
+  
+  <h2 class="mt-8 text-2xl font-extrabold mb-10">Past</h2>
+  {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+    {{ if .Params.date.Before (time.AsTime time.Now) }}
+      {{ partial "article-link/simple.html" . }}
+    {{ end }}
+  {{ end }}
+</section>
