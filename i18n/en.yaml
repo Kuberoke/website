@@ -61,7 +61,7 @@ sharing:
   twitter: "Tweet on Twitter"
 
 shortcode:
-  recent_articles: "Upcoming"
+  recent_articles: ""
 
 recent:
   show_more: "Show More"
