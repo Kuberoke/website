@@ -1,6 +1,10 @@
 # Kuberoke Website
 
 ## Development
+
+### Initialise theme
+`git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish`
+
 ### Run local dev server
 `docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest server`
 
