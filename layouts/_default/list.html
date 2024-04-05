@@ -63,17 +63,34 @@
     {{ $groupByYear := .Params.groupByYear | default ($.Site.Params.list.groupByYear | default false) }}
 
     {{ if not $cardView }}
-
+    
     <section class="space-y-10 w-full">
+      <h2 class="mt-8 text-2xl font-extrabold mb-10">Upcoming</h2>
       {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
-      {{ if $groupByYear }}
+        {{ if $groupByYear }}
       <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-        {{ .Key }}
+          {{ .Key }}
       </h2>
+        {{ end }}
+        {{ range .Pages }}
+          {{ if not (.Params.date.Before (time.AsTime time.Now)) }}
+            {{ partial "article-link/simple.html" . }}
+          {{ end }}
+        {{ end }}
       {{ end }}
-      {{ range .Pages }}
-      {{ partial "article-link/simple.html" . }}
-      {{ end }}
+
+      <h2 class="mt-8 text-2xl font-extrabold mb-10">Past</h2>
+      {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+        {{ if $groupByYear }}
+      <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+          {{ .Key }}
+      </h2>
+        {{ end }}
+        {{ range .Pages }}
+          {{ if .Params.date.Before (time.AsTime time.Now) }}
+            {{ partial "article-link/simple.html" . }}
+          {{ end }}
+        {{ end }}
       {{ end }}
     </section>
 
