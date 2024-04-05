@@ -13,7 +13,7 @@ The point of Kuberoke is to have an enjoyable time together as a community after
 
 We have a zero-tolerance policy regarding discrimination and aggressive behaviour such as:
 - Sexism
-- Racism, Anti-Semitism, Xenophobia
+- Racism, Anti-Semitism, Xenophobia (this includes disrespecting cultural and regional practices and laws)
 - Homophobia, Transphobia, any bigotry against LGBTQ+ folks as well as queer erasure (i.e. questioning folks' self-labelling as queer)
 - Ableism (usage of ableist slurs, harassing people for their physical properties), unwanted comments about people's health status
 - Harassment, unwanted advances, crossing stated boundaries
