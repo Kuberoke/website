@@ -61,11 +61,11 @@ defaultBackgroundImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used 
   invertPagination = false
   showReadingTime = false
   showTableOfContents = true
-  showTaxonomies = false 
-  showAuthorsBadges = false 
+  showTaxonomies = false
+  showAuthorsBadges = false
   showWordCount = false
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+  sharingLinks = [ "linkedin", "bluesky", "mastodon", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
   #showHero = true
