@@ -13,10 +13,13 @@ description = "The first and only Kubernetes Karaoke community"
 dateFormat = "2 January 2006"
 
 links = [
-      { twitter = "https://twitter.com/kuberoke" },
+      { mastodon = "https://hachyderm.io/@kuberoke" },
+      { bluesky = "https://bsky.app/profile/kuberoke.bsky.social" },
       { instagram = "https://www.instagram.com/kuberoke/" },
+      { linkedin = "https://www.linkedin.com/company/kuberoke/" },
       { discord = "https://discord.gg/97aCzm4A8c" },
       { email = "mailto:kuberoke@lianmakesthings.dev" },
+  #   { twitter = "https://twitter.com/kuberoke" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -34,8 +37,7 @@ links = [
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
-  #   { mastodon = "https://hachyderm.io/@lianmakesthings" },
+
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
   #   { orcid = "https://orcid.org/userid" },
