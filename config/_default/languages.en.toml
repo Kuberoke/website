@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Kuberoke"
-logo = "logos/logo-transparent.png"
+logo = "logos/logo-white-border.png"
 description = "The first and only Kubernetes Karaoke community"
 # copyright = "Copy, _right?_ :thinking_face:"
 
