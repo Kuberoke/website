@@ -1,18 +1,20 @@
-languageCode = "en"
-languageName = "English"
-displayName = "EN"
-isoCode = "en"
-weight = 1
-rtl = false
 
-title = "Kuberoke"
-logo = "logos/logo-white-border.png"
-description = "The first and only Kubernetes Karaoke community"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "2 January 2006"
-
-links = [
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en.params]
+    disabled = false
+    languageCode = 'en'
+    languageDirection = ''
+    languageName = 'English'
+    displayName = 'EN'
+    title = "Kuberoke"
+    isoCode = "en"
+    weight = 1
+    rtl = false
+    logo = "logos/Kuberoke-SingleMic.png"
+    description = "The first and only Kubernetes Karaoke community"
+    dateFormat = "2 January 2006"
+    links = [
       { mastodon = "https://hachyderm.io/@kuberoke" },
       { bluesky = "https://bsky.app/profile/kuberoke.bsky.social" },
       { instagram = "https://www.instagram.com/kuberoke/" },
@@ -57,4 +59,4 @@ links = [
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   #   { ko-fi = "https://ko-fi.com/username" },
-]
+      ]
