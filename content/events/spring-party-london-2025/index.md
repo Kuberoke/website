@@ -3,6 +3,7 @@ title: "Spring Party London 2025"
 date: 2025-04-02
 authors:
   - "marcus"
+  - "lian"
 ---
 
 KubeCon + CloudNativeCon is coming to London and to celebrate the occasion, we are hosting a Karaoke party on **Wednesday April 2, 9pm - 1am (TBC)** at TBC.
