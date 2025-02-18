@@ -6,7 +6,7 @@ authors:
   - "lian"
 ---
 
-KubeCon + CloudNativeCon is coming to London and to celebrate the occasion, we are hosting a Karaoke party on **Wednesday April 2, 9pm - 1am (TBC)** at TBC.
+_That Cloud Native conference_ is coming to London and to celebrate the occasion, we are hosting a Karaoke party on **Wednesday April 2, 9pm - 1am (TBC)** at TBC.
 
 More details coming soon...
 
