@@ -21,6 +21,7 @@ Registration opening soon...
 **Safety & Accessibility**
 
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior to the event.
+Unfortunately, the venue will not be accessible by wheelchair. There will be stairs leading up to the party area(s) with no lift provided.
 
 **Sponsors**
 
