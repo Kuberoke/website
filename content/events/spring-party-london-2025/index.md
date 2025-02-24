@@ -16,7 +16,8 @@ Due to overwhelming interest, we are now requiring folks to register.
 
 Registration will collect your email, but it will only be used for sending confirmation and invites; your *personal email address will not be shared* with the sponsors for marketing purposes. We will share the *unique company domain names* from emails (i.e. companyname.com) with sponsors.
 
-Registration opening soon...
+<tito-widget event="kuberoke/kuberoke-spring-party-london-2025"></tito-widget>
+*Can't see the widget? Register here: https://ti.to/kuberoke/kuberoke-spring-party-london-2025/with/general-admission*
 
 **Safety & Accessibility**
 
