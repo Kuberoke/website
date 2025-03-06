@@ -30,4 +30,5 @@ By attending the event, you agree to abide by our [Code of Conduct](/coc). Pleas
 
 This event is made possible by our generous sponsors ❤️
 [![Edera](edera.png)](https://edera.dev/)
+[![Coder](coder.png)](https://coder.com/)
 [![Cloud Native Zurich](cloud-native-zurich.png)](https://cloudnativezurich.ch/)
