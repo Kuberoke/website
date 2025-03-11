@@ -34,3 +34,4 @@ This event is made possible by our generous sponsors ❤️
 [![Syntasso](syntasso.png)](https://www.syntasso.io/)
 [![Cloud Native Zurich](cloud-native-zurich.png)](https://cloudnativezurich.ch/)
 [![KubeFM](kubefm.png)](https://kube.fm/)
+[![Stackconf](stackconf.png)](https://stackconf.eu/)
