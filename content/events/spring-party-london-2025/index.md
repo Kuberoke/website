@@ -32,6 +32,7 @@ This event is made possible by our generous sponsors ❤️
 [![Edera](edera.png)](https://edera.dev/)
 [![Coder](coder.png)](https://coder.com/)
 [![Syntasso](syntasso.png)](https://www.syntasso.io/)
+[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
 [![Cloud Native Zurich](cloud-native-zurich.png)](https://cloudnativezurich.ch/)
 [![KubeFM](kubefm.png)](https://kube.fm/)
 [![Stackconf](stackconf.png)](https://stackconf.eu/)
