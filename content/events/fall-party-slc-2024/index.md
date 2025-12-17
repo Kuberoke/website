@@ -1,6 +1,6 @@
 ---
 title: " Kuberoke Fall Party Salt Lake City"
-date: TBD
+date: 2024-11-15
 authors:
   - "lian"
 draft: true
