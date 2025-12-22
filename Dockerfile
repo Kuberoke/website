@@ -12,4 +12,4 @@ WORKDIR /src
 EXPOSE 1313
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["server", "--bind", "0.0.0.0", "-D"]
+CMD ["server", "--bind", "0.0.0.0", "-D", "-F"]
