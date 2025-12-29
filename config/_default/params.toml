@@ -49,7 +49,7 @@ defaultBackgroundImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used 
   showHero = true
   heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
@@ -68,10 +68,10 @@ defaultBackgroundImage = "img/bruno-emmanuelle-Gi6-m_t_W-E-unsplash.jpg" # used 
   sharingLinks = [ "linkedin", "bluesky", "mastodon", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
-  #showHero = true
-  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  #layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   #showViews = true

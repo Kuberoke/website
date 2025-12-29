@@ -2,15 +2,40 @@
 
 ## Development
 
-### Initialise theme
-`git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish`
+### Quick Start with Docker
 
-### Run local dev server
-In development mode, drafts are served
-`docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest serve -D`
+The easiest way to develop locally is using Docker, which automatically handles theme initialization:
 
-### Build page once
-`docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest`
+#### Run local dev server
+Development mode serves drafts and auto-reloads on changes:
+```bash
+docker build -t kuberoke-hugo .
+docker run --rm -it -v $(pwd):/src -p 1313:1313 kuberoke-hugo
+```
+
+Visit http://localhost:1313 to see the site.
+
+#### Build for production
+```bash
+docker run --rm -v $(pwd):/src kuberoke-hugo --minify
+```
+
+The built site will be in the `public/` directory.
+
+### Manual Setup (without Docker)
+
+If you prefer to run Hugo directly on your machine:
+
+1. **Initialize theme** (first time only):
+   ```bash
+   git submodule update --init --recursive
+   ```
+
+2. **Install Hugo**: Follow instructions at https://gohugo.io/installation/
+
+3. **Run dev server**: `hugo server -D`
+
+4. **Build**: `hugo --minify`
 
 ### Update theme
 ```
