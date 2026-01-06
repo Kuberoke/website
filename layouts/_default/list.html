@@ -68,6 +68,7 @@
 
     <section class="space-y-10 w-full">
       {{ if not $orderByWeight }}
+        {{ $.Scratch.Set "pastHeaderShown" false }}
         {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
         {{ if $groupByYear }}
         <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
@@ -75,11 +76,24 @@
         </h2>
         {{ end }}
         {{ range .Pages }}
+        {{ if and (not (.Date.After now)) (not ($.Scratch.Get "pastHeaderShown")) }}
+        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+          Past
+        </h2>
+        {{ $.Scratch.Set "pastHeaderShown" true }}
+        {{ end }}
         {{ partial "article-link/simple.html" . }}
         {{ end }}
         {{ end }}
       {{ else }}
+        {{ $pastHeaderShown := false }}
         {{ range (.Paginate (.Pages.ByWeight)).Pages }}
+        {{ if and (not (.Date.After now)) (not $pastHeaderShown) }}
+        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+          Past
+        </h2>
+        {{ $pastHeaderShown = true }}
+        {{ end }}
         {{ partial "article-link/simple.html" . }}
         {{ end }}
       {{ end }}
