@@ -2,8 +2,15 @@
 {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
 
 <section class="space-y-10 w-full">
+  {{ $upcomingHeaderShown := false }}
   {{ $pastHeaderShown := false }}
   {{ range first $recentArticles (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections)).Pages }}
+    {{ if and (.Date.After now) (not $upcomingHeaderShown) }}
+      <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+        Upcoming
+      </h2>
+      {{ $upcomingHeaderShown = true }}
+    {{ end }}
     {{ if and (not (.Date.After now)) (not $pastHeaderShown) }}
       <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
         Past
