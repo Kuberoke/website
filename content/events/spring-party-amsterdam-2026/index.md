@@ -24,4 +24,4 @@ The venue is located on the second floor, accessible by stairs. Unfortunately we
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
-If you are interested in sponsoring get in touch with us at {{< mailto email="info@kuberoke.love" />}}
+For more information on sponsorship, take a look at our [prospectus](https://docs.google.com/document/d/18CooQ2Y_B8HxKOnzlqDltKnoU7EU9kv-ifx-7EpNn18/edit?tab=t.0#heading=h.jhleykupmcq8).
