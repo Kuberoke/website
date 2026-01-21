@@ -16,22 +16,26 @@ We will have an open bar and some snacks, thanks to our generous sponsors!
 
 Coming soon...
 
-**Safety & Accessibility**  
+**Safety & Accessibility**
+
 By attending the event, you agree to abide by our [Code of Conduct](/coc). Please make sure you have reviewed it prior to the event.
 
 The venue is located on the second floor, accessible by stairs. Unfortunately we are not able to accommodate wheelchairs or similar mobility aids.
 
-**Sponsors**  
+**Sponsors**
+
 This event is made possible by our generous sponsors ❤️
 
+<!--
 **Corporate**
 <div class="corporate-sponsor">
 </div>
+-->
 
 **Community**
 <div class="community-sponsor">
 
-[![TSC Labs](tsc-labs.png)](https://tsc-labs.eu/)
+[![TSC Labs](sponsors/tsc-labs.png)](https://tsc-labs.eu/)
 
 </div>
 
