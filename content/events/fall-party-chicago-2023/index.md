@@ -32,7 +32,30 @@ The venue is ADA compliant. It should be accessible for most mobility aids.
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
-[![Ambassador Labs](Ambassador_Labs_horiz_full_color_RGB.png)](https://www.getambassador.io/)
-[![Chainguard](Chainguard_Lockup_Blue.png)](https://www.chainguard.dev/)
-[![Control-Plane](control_plane_logo.png)](https://control-plane.io/)
-[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
+{{< sponsor
+    src="sponsors/Ambassador_Labs_horiz_full_color_RGB.png"
+    alt="Ambassador Labs"
+    href="https://getambassador.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/Chainguard_Lockup_Blue.png"
+    alt="Chainguard"
+    href="https://www.chainguard.dev"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/control_plane_logo.png"
+    alt="Control-Plane"
+    href="https://control-plane.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/honeycomb.png"
+    alt="Honeycomb"
+    href="https://www.honeycomb.io"
+    type="corporate"
+>}}
