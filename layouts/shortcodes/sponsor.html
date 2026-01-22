@@ -1,0 +1,8 @@
+{{ $src := (.Get "src") }}
+{{ $alt := (.Get "alt") }}
+{{ $href := (.Get "href")}}
+{{ $type := (.Get "type") }}
+{{ $width := cond (eq $type "community") 200 400 }}
+<a href="{{ $href }}" target="_blank" rel="noopener">
+    <img src="{{ $src }}" class="nozoom" alt="{{ $alt }}" style="max-width: {{ $width }}px"/>
+</a>
