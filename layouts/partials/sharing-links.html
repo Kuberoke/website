@@ -2,6 +2,9 @@
   {{ $links := site.Data.sharing }}
   {{ $pagePermalink := $.Permalink }}
   {{ $pageTitle := $.Title }}
+  <div class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    Share this event:
+  </div>
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
     {{ range . }}
       {{ with index $links . }}
