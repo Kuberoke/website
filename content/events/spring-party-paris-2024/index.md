@@ -32,7 +32,30 @@ and there will be loud singing. If you are concerned about infection risk, we wo
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
-[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
-[![Control-Plane](control_plane_logo.png)](https://control-plane.io/)
-[![TestifySec](testifysec.png)](https://www.testifysec.com/)
-[![AWS](aws.png)](https://aws.amazon.com/)
+{{< sponsor
+    src="sponsors/honeycomb.png"
+    alt="Honeycomb"
+    href="https://www.honeycomb.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/control_plane_logo.png"
+    alt="Control-Plane"
+    href="https://control-plane.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/testifysec.png"
+    alt="TestifySec"
+    href="https://testifysec.com"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/aws.png"
+    alt="AWS"
+    href="https://aws.amazon.com"
+    type="corporate"
+>}}
