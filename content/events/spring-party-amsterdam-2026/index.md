@@ -33,10 +33,12 @@ This event is made possible by our generous sponsors ❤️
 -->
 
 **Community**
-<div class="community-sponsor">
 
-[![TSC Labs](sponsors/tsc-labs.png)](https://tsc-labs.eu/)
-
-</div>
+{{< sponsor
+    src="sponsors/tsc-labs.png"
+    alt="TSC Labs"
+    href="https://tsc-labs.eu"
+    type="community"
+>}}
 
 For more information on sponsorship, take a look at our [prospectus](https://docs.google.com/document/d/18CooQ2Y_B8HxKOnzlqDltKnoU7EU9kv-ifx-7EpNn18/edit?tab=t.0#heading=h.jhleykupmcq8).
