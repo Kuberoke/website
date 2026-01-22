@@ -31,20 +31,54 @@ By attending the event, you agree to abide by our [Code of Conduct](/coc). Pleas
 This event is made possible by our generous sponsors ❤️
 
 **Corporate**
-<div class="corporate-sponsor">
 
-[![Edera](edera.png)](https://edera.dev/)
-[![Coder](coder.png)](https://coder.com/)
-[![Syntasso](syntasso.png)](https://www.syntasso.io/)
-[![Honeycomb](honeycomb.png)](https://www.honeycomb.io/)
+{{< sponsor
+    src="sponsors/edera.png"
+    alt="Edera"
+    href="https://edera.dev"
+    type="corporate"
+>}}
 
-</div>
+{{< sponsor
+    src="sponsors/coder.png"
+    alt="Coder"
+    href="https://coder.com"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/syntasso.png"
+    alt="Syntasso"
+    href="https://www.syntasso.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/honeycomb.png"
+    alt="Honeycomb"
+    href="https://www.honeycomb.io"
+    type="corporate"
+>}}
 
 **Community**
-<div class="community-sponsor">
 
-[![Cloud Native Zurich](cloud-native-zurich.png)](https://cloudnativezurich.ch/)
-[![KubeFM](kubefm.png)](https://kube.fm/)
-[![Stackconf](stackconf.png)](https://stackconf.eu/)
+{{< sponsor
+    src="sponsors/cloud-native-zurich.png"
+    alt="Cloud Native Zurich"
+    href="https://cloudnativezurich.ch"
+    type="community"
+>}}
 
-</div>
+{{< sponsor
+    src="sponsors/kubefm.png"
+    alt="KubeFM"
+    href="https://kube.fm"
+    type="community"
+>}}
+
+{{< sponsor
+    src="sponsors/stackconf.png"
+    alt="stackconf"
+    href="https://stackconf.eu"
+    type="community"
+>}}
