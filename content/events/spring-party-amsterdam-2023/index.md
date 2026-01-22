@@ -30,7 +30,30 @@ The venue is located on the ground floor with a small step (sidewalk) in front o
 **Sponsors**  
 This event is made possible by our generous sponsors ❤️
 
-[![Ambassador Labs](Ambassador_Labs_horiz_full_color_RGB.png)](https://www.getambassador.io/)
-[![Control-Plane](control-plane-Logo.png)](https://control-plane.io/)
-[![Chainguard](Chainguard_Lockup_Blue.png)](https://www.chainguard.dev/)
-[![Mia-Platform](mia-platform-Horizontal_Lockup_Primary.jpg)](https://www.mia-platform.eu/)
+{{< sponsor
+    src="sponsors/Ambassador_Labs_horiz_full_color_RGB.png"
+    alt="Ambassador Labs"
+    href="https://www.getambassador.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/control-plane-Logo.png"
+    alt="Control-Plane"
+    href="https://control-plane.io"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/Chainguard_Lockup_Blue.png"
+    alt="Chainguard"
+    href="https://www.chainguard.dev"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/mia-platform-Horizontal_Lockup_Primary.jpg"
+    alt="Mia-Platform"
+    href="https://mia-platform.eu"
+    type="corporate"
+>}}
