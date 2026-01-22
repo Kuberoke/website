@@ -1,8 +1,9 @@
 {
     "name": "Marcus Noble",
+    "image" : "img/avatars/marcus.jpg",
     "bio": "Senior Karaoke Officer",
     "social": [
-        { "twitter": "https://twitter.com/Marcus_Noble_" },
+        { "bluesky": "https://bsky.app/profile/averagemarcus.bsky.social" },
         { "mastodon": "https://k8s.social/@Marcus"}
     ]
 }
