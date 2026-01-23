@@ -41,4 +41,11 @@ This event is made possible by our generous sponsors ❤️
     type="community"
 >}}
 
+{{< sponsor
+    src="sponsors/wemakedevs.png"
+    alt="WeMakeDevs"
+    href="https://www.wemakedevs.org/"
+    type="community"
+>}}
+
 For more information on sponsorship, take a look at our [prospectus](https://docs.google.com/document/d/18CooQ2Y_B8HxKOnzlqDltKnoU7EU9kv-ifx-7EpNn18/edit?tab=t.0#heading=h.jhleykupmcq8).
