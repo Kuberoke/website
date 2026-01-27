@@ -26,11 +26,14 @@ The venue is located on the second floor, accessible by stairs. Unfortunately we
 
 This event is made possible by our generous sponsors ❤️
 
-<!--
+
 **Corporate**
-<div class="corporate-sponsor">
-</div>
--->
+{{< sponsor
+    src="sponsors/syntasso.png"
+    alt="Syntasso"
+    href="https://www.syntasso.io/"
+    type="corporate"
+>}}
 
 **Community**
 
