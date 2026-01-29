@@ -28,6 +28,7 @@ This event is made possible by our generous sponsors ❤️
 
 
 **Corporate**
+
 {{< sponsor
     src="sponsors/syntasso.png"
     alt="Syntasso"
@@ -48,6 +49,20 @@ This event is made possible by our generous sponsors ❤️
     src="sponsors/wemakedevs.png"
     alt="WeMakeDevs"
     href="https://www.wemakedevs.org/"
+    type="community"
+>}}
+
+{{< sponsor
+    src="sponsors/fikaworks.png"
+    alt="FikaWorks"
+    href="https://fika.works"
+    type="community"
+>}}
+
+{{< sponsor
+    src="sponsors/CN-Netherlands.png"
+    alt="Stichting Cloud Native Netherlands"
+    href="https://cloudnativenetherlands.nl"
     type="community"
 >}}
 
