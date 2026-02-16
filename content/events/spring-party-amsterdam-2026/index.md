@@ -36,6 +36,27 @@ This event is made possible by our generous sponsors ❤️
     type="corporate"
 >}}
 
+{{< sponsor
+    src="sponsors/iits.png"
+    alt="iits"
+    href="https://iits-consulting.de"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/edera.png"
+    alt="Edera"
+    href="https://edera.dev"
+    type="corporate"
+>}}
+
+{{< sponsor
+    src="sponsors/control-plane.png"
+    alt="ControlPlane"
+    href="https://control-plane.io"
+    type="corporate"
+>}}
+
 **Community**
 
 {{< sponsor
